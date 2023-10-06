@@ -10,5 +10,7 @@ target 'chatter' do
     pod 'ReactorKit'
     pod 'RxSwift'
     pod 'RxCocoa'
+    pod 'Then'
+    pod 'SnapKit'
 
 end
