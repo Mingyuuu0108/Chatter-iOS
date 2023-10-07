@@ -1,5 +1,5 @@
 //
-//  UIViewExtension.swift
+//  UIView.swift
 //  chatter
 //
 //  Created by 이민규 on 2023/10/07.

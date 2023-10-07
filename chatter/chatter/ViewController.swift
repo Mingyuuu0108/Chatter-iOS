@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     
     let text1 = UILabel().then {
         $0.text = "텍스트"
+        $0.textColor = .Colors.white.color
     }
     
     let text2 = UILabel().then {
@@ -22,7 +23,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.view.backgroundColor = .red
+        self.view.backgroundColor = .Colors.white.color
         self.view.addSubviews(text1, text2)
     }
 }
