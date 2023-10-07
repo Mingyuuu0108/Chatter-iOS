@@ -6,20 +6,24 @@
 //
 
 import UIKit
+import Then
+import SnapKit
 
 class ViewController: UIViewController {
     
-    let text: UILabel = {
-        let text = UILabel()
-        
-        text.text = "텍스트"
-        return text
-    }()
-
+    let text1 = UILabel().then {
+        $0.text = "텍스트"
+    }
+    
+    let text2 = UILabel().then {
+        $0.text = "텍스트"
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = .red
+        self.view.backgroundColor = .red
+        self.view.addSubviews(text1, text2)
     }
 }
 
