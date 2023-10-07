@@ -7,27 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4ACB3CA7B8387FE517A26FB9 /* Pods_chatter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9E2D11349C2856424AABCA1 /* Pods_chatter.framework */; };
 		52721FD52ACFA14800FD60E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52721FD42ACFA14800FD60E8 /* AppDelegate.swift */; };
 		52721FD72ACFA14800FD60E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52721FD62ACFA14800FD60E8 /* SceneDelegate.swift */; };
 		52721FD92ACFA14800FD60E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52721FD82ACFA14800FD60E8 /* ViewController.swift */; };
-		52721FDC2ACFA14800FD60E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52721FDA2ACFA14800FD60E8 /* Main.storyboard */; };
 		52721FDE2ACFA14A00FD60E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52721FDD2ACFA14A00FD60E8 /* Assets.xcassets */; };
 		52721FE12ACFA14A00FD60E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52721FDF2ACFA14A00FD60E8 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4E93B3E707B4E4E55B2FB3C0 /* Pods-chatter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chatter.debug.xcconfig"; path = "Target Support Files/Pods-chatter/Pods-chatter.debug.xcconfig"; sourceTree = "<group>"; };
 		52721FD12ACFA14800FD60E8 /* chatter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chatter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52721FD42ACFA14800FD60E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52721FD62ACFA14800FD60E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		52721FD82ACFA14800FD60E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		52721FDB2ACFA14800FD60E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52721FDD2ACFA14A00FD60E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52721FE02ACFA14A00FD60E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52721FE22ACFA14A00FD60E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B968B5A1AE4F3B917B71E85F /* Pods-chatter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chatter.release.xcconfig"; path = "Target Support Files/Pods-chatter/Pods-chatter.release.xcconfig"; sourceTree = "<group>"; };
-		D9E2D11349C2856424AABCA1 /* Pods_chatter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_chatter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,30 +29,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4ACB3CA7B8387FE517A26FB9 /* Pods_chatter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1B80AACA0AD0347F96D1460C /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				4E93B3E707B4E4E55B2FB3C0 /* Pods-chatter.debug.xcconfig */,
-				B968B5A1AE4F3B917B71E85F /* Pods-chatter.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		52721FC82ACFA14800FD60E8 = {
 			isa = PBXGroup;
 			children = (
 				52721FD32ACFA14800FD60E8 /* chatter */,
 				52721FD22ACFA14800FD60E8 /* Products */,
-				1B80AACA0AD0347F96D1460C /* Pods */,
-				A1699867226CC609B5E5A822 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,20 +57,11 @@
 				52721FD42ACFA14800FD60E8 /* AppDelegate.swift */,
 				52721FD62ACFA14800FD60E8 /* SceneDelegate.swift */,
 				52721FD82ACFA14800FD60E8 /* ViewController.swift */,
-				52721FDA2ACFA14800FD60E8 /* Main.storyboard */,
 				52721FDD2ACFA14A00FD60E8 /* Assets.xcassets */,
 				52721FDF2ACFA14A00FD60E8 /* LaunchScreen.storyboard */,
 				52721FE22ACFA14A00FD60E8 /* Info.plist */,
 			);
 			path = chatter;
-			sourceTree = "<group>";
-		};
-		A1699867226CC609B5E5A822 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D9E2D11349C2856424AABCA1 /* Pods_chatter.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,11 +71,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52721FE52ACFA14A00FD60E8 /* Build configuration list for PBXNativeTarget "chatter" */;
 			buildPhases = (
-				E1AADDF64A6622967F12EEC7 /* [CP] Check Pods Manifest.lock */,
 				52721FCD2ACFA14800FD60E8 /* Sources */,
 				52721FCE2ACFA14800FD60E8 /* Frameworks */,
 				52721FCF2ACFA14800FD60E8 /* Resources */,
-				668A0058727ADF2C273EAD53 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,53 +124,10 @@
 			files = (
 				52721FE12ACFA14A00FD60E8 /* LaunchScreen.storyboard in Resources */,
 				52721FDE2ACFA14A00FD60E8 /* Assets.xcassets in Resources */,
-				52721FDC2ACFA14800FD60E8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		668A0058727ADF2C273EAD53 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-chatter/Pods-chatter-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-chatter/Pods-chatter-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-chatter/Pods-chatter-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E1AADDF64A6622967F12EEC7 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-chatter-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		52721FCD2ACFA14800FD60E8 /* Sources */ = {
@@ -216,14 +143,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		52721FDA2ACFA14800FD60E8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				52721FDB2ACFA14800FD60E8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		52721FDF2ACFA14A00FD60E8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -287,7 +206,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -344,7 +263,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -356,20 +275,20 @@
 		};
 		52721FE62ACFA14A00FD60E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E93B3E707B4E4E55B2FB3C0 /* Pods-chatter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = H4CNC953L3;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = chatter/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -377,28 +296,31 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = kr.hs.dgsw.chatter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		52721FE72ACFA14A00FD60E8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B968B5A1AE4F3B917B71E85F /* Pods-chatter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = H4CNC953L3;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = chatter/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -406,9 +328,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = kr.hs.dgsw.chatter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
