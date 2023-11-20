@@ -11,7 +11,7 @@ import SwiftUI
 struct chatterApp: App {
     var body: some Scene {
         WindowGroup {
-            TextToSpeechView()
+            HomeView()
         }
     }
 }
