@@ -12,6 +12,7 @@
 		520EF9C52B0B878100685800 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520EF9C42B0B878100685800 /* Color.swift */; };
 		520EF9C72B0BA34A00685800 /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520EF9C62B0BA34A00685800 /* RoundedCorner.swift */; };
 		520EF9CA2B0BAF1A00685800 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 520EF9C92B0BAF1A00685800 /* Alamofire */; };
+		520EF9EA2B0C9B1700685800 /* QuestionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520EF9E92B0C9B1700685800 /* QuestionsView.swift */; };
 		52B4F5302B0B34E100A7B542 /* chatterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B4F52F2B0B34E100A7B542 /* chatterApp.swift */; };
 		52B4F5322B0B34E100A7B542 /* SpeechToTextConverterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B4F5312B0B34E100A7B542 /* SpeechToTextConverterView.swift */; };
 		52B4F5342B0B34E200A7B542 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52B4F5332B0B34E200A7B542 /* Assets.xcassets */; };
@@ -23,6 +24,8 @@
 		520EF9C22B0B867D00685800 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		520EF9C42B0B878100685800 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		520EF9C62B0BA34A00685800 /* RoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
+		520EF9E82B0C6F9A00685800 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		520EF9E92B0C9B1700685800 /* QuestionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsView.swift; sourceTree = "<group>"; };
 		52B4F52C2B0B34E100A7B542 /* chatter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chatter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52B4F52F2B0B34E100A7B542 /* chatterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatterApp.swift; sourceTree = "<group>"; };
 		52B4F5312B0B34E100A7B542 /* SpeechToTextConverterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechToTextConverterView.swift; sourceTree = "<group>"; };
@@ -48,6 +51,7 @@
 				52B4F5312B0B34E100A7B542 /* SpeechToTextConverterView.swift */,
 				520EF9C02B0B852F00685800 /* LaunchView.swift */,
 				520EF9C22B0B867D00685800 /* HomeView.swift */,
+				520EF9E92B0C9B1700685800 /* QuestionsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -71,6 +75,7 @@
 		52B4F52E2B0B34E100A7B542 /* chatter */ = {
 			isa = PBXGroup;
 			children = (
+				520EF9E82B0C6F9A00685800 /* Info.plist */,
 				520EF9BF2B0B852200685800 /* View */,
 				52B4F52F2B0B34E100A7B542 /* chatterApp.swift */,
 				52B4F5332B0B34E200A7B542 /* Assets.xcassets */,
@@ -166,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				520EF9C72B0BA34A00685800 /* RoundedCorner.swift in Sources */,
+				520EF9EA2B0C9B1700685800 /* QuestionsView.swift in Sources */,
 				52B4F5322B0B34E100A7B542 /* SpeechToTextConverterView.swift in Sources */,
 				520EF9C32B0B867D00685800 /* HomeView.swift in Sources */,
 				520EF9C12B0B852F00685800 /* LaunchView.swift in Sources */,
@@ -307,6 +313,7 @@
 				DEVELOPMENT_TEAM = H4CNC953L3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = chatter/Info.plist;
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "\"DD\"";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -341,6 +348,7 @@
 				DEVELOPMENT_TEAM = H4CNC953L3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = chatter/Info.plist;
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "\"DD\"";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
