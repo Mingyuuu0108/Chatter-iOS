@@ -17,6 +17,7 @@
 		52B4F5322B0B34E100A7B542 /* SpeechToTextConverterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B4F5312B0B34E100A7B542 /* SpeechToTextConverterView.swift */; };
 		52B4F5342B0B34E200A7B542 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52B4F5332B0B34E200A7B542 /* Assets.xcassets */; };
 		52B4F5372B0B34E200A7B542 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52B4F5362B0B34E200A7B542 /* Preview Assets.xcassets */; };
+		52C75E6F2B0DF4CE00755395 /* viewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C75E6E2B0DF4CE00755395 /* viewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		52B4F5312B0B34E100A7B542 /* SpeechToTextConverterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechToTextConverterView.swift; sourceTree = "<group>"; };
 		52B4F5332B0B34E200A7B542 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52B4F5362B0B34E200A7B542 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		52C75E6E2B0DF4CE00755395 /* viewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 				520EF9C02B0B852F00685800 /* LaunchView.swift */,
 				520EF9C22B0B867D00685800 /* HomeView.swift */,
 				520EF9E92B0C9B1700685800 /* QuestionsView.swift */,
+				52C75E6E2B0DF4CE00755395 /* viewModel.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 				520EF9C32B0B867D00685800 /* HomeView.swift in Sources */,
 				520EF9C12B0B852F00685800 /* LaunchView.swift in Sources */,
 				520EF9C52B0B878100685800 /* Color.swift in Sources */,
+				52C75E6F2B0DF4CE00755395 /* viewModel.swift in Sources */,
 				52B4F5302B0B34E100A7B542 /* chatterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -11,7 +11,10 @@ import Alamofire
 
 struct HomeView: View {
     
+    @StateObject var viewModel = ViewModel()
+    
     @State private var showLaunchView = true
+    @State private var showQuestionsView = false
     @State private var isSpeaking = false
     @State private var text: String = ""
     @State private var question: String = ""
@@ -41,7 +44,7 @@ extension HomeView {
             VStack(spacing: 0) {
                 VStack {
                     Button {
-                        
+                        showQuestionsView.toggle()
                     } label: {
                         VStack(spacing: 4) {
                             Text("이전 질문 / 답변 다시보기")
@@ -117,6 +120,9 @@ extension HomeView {
                     LaunchView()
                 }
             }
+            .sheet(isPresented: $showQuestionsView) {
+                QuestionsView(viewModel: viewModel)
+            }
         }
     }
 }
@@ -128,7 +134,8 @@ extension HomeView {
         stopSpeaking()
         answer = ""
         question = text
-        AF.request("http://10.80.162.160:8000/question",
+        viewModel.addQuestion(question)
+        AF.request("http://10.80.163.4:8000/question",
                    method: .post,
                    parameters: ["question": "\(question) 에 대해 띄어쓰기 포함 해서 80글자 이내로 답변해줘"],
                    encoding: JSONEncoding.default,
@@ -138,6 +145,7 @@ extension HomeView {
             guard let answer = response.value else { return }
             self.answer = answer
             speakText(answer)
+            viewModel.addAnswer(answer)
         }
     }
     
